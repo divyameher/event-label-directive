@@ -61,7 +61,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "facd3905-6908-4a5a-99fb-49bf2b434775",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -154,7 +154,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "a4fe3574-5d1e-41b8-bc0c-0320e3e7c46d",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -228,7 +228,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "53a263de-d9c7-4029-a21b-dd86fbf360b4",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -319,7 +319,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "afa3cdfa-d75a-4267-9e73-a2c6075d5ed5",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -412,7 +412,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "1cb27338-36a9-4cd7-bb58-e560856b3b29",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -497,7 +497,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "a104434d-76e1-4ae5-b746-9553fb860b00",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -588,7 +588,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "ed64406d-424a-4ddb-8995-a4fa2dd76b35",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -681,7 +681,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "Requestor",
-      "guid": "97b4a6b2-33a3-48d0-99f5-5612187e6a29",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -774,7 +774,7 @@
       "requestedReason": null,
       "source": "Manual",
       "scheduleTradeParticipant": "None",
-      "guid": "4f32f46c-8f04-40ea-8b8f-2119595ef8bd",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
@@ -869,7 +869,7 @@
       "requestedReason": null,
       "source": "RequestToWork",
       "scheduleTradeParticipant": "None",
-      "guid": "549cc82a-140b-4bf6-a298-e69a3f8a3545",
+      "guid": "",
       "person": {
         "id": 4927,
         "code": "AdminVasantha",
