@@ -26,27 +26,54 @@ export class EventLabelDirective {
   // }
   getLabel(event: any) {
     let label = "";
-    let color;
+    let classList = this.el.nativeElement.classList;
+    let className = classList;
     if (event.activity && event.activity.configuration) {
       if (event.activity.configuration.isOnCall) {
         label = "ON CALL";
-        color = "#E8A736";
+        className += " orange";
+        if (event.status == "Requested") {
+          label = "On call request";
+          className += " request";
+        }
       } else if (event.activity.configuration.isTimeOff) {
         label = "TIME OFF";
-        color = "#903E97";
+        className += " purple";
+        if (event.status == "Requested") {
+          label = "Time off request";
+          className += " request";
+        }
       }
     }
 
     if (event.payCode && event.payCode.configuration) {
       if (event.payCode.configuration.isOnCall) {
         label = "ON CALL";
-        color = "#E8A736";
+        className += " orange";
+        if (event.status == "Requested") {
+          label = "On call request";
+          className += " request";
+        }
       } else if (event.payCode.configuration.isTimeOff) {
         label = "TIME OFF";
-        color = "#903E97";
+        className = "purple";
+        if (event.status == "Requested") {
+          label = "Time off request";
+          className += " request";
+        }
+      }
+
+      if (event.isTradeRequested && event.scheduleStatus == "Trade") {
+        if (event.scheduleTradeStatus == "Requested") {
+          label = "Trade request";
+          className += "request";
+        } else if (event.scheduleTradeStatus == "Accepted") {
+          label = "Trade accepted";
+          className += "request";
+        }
       }
     }
-    this.el.nativeElement.style.color = color;
+    this.el.nativeElement.className = className;
     this.el.nativeElement.innerHTML = label;
   }
 }

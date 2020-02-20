@@ -1,7 +1,7 @@
 <ng-container *ngFor='let event of events.schedules'>
 	<div style="border:1px solid grey">
 		<div>{{event.activity ? event.activity.code : event.payCode.code}}</div>
-		<div eventLabel [eventObj]="event"></div>
+		<div eventLabel [eventObj]="event" class="event-label"></div>
 	</div>
   <br/>
 </ng-container>
